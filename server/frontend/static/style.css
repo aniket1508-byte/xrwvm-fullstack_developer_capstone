@@ -26,6 +26,7 @@ img{
 .container{
   justify-content: center;
 }
+
 .details{
   font-size: 20px;
   color: rgb(97, 64, 128);
@@ -45,7 +46,7 @@ img{
   color:  rgb(97, 64, 128);
   padding: 25%;
   font-size: larger;
-  }
+}
 
 .loginlink{
   display: flex;
@@ -58,7 +59,7 @@ img{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex:1
+  flex:1;
 }
 
 .form_panel {
@@ -117,10 +118,33 @@ img{
 
 .img_icon {
   align-self: center;
-    width:40px;
-    background-color:#0C9;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    box-shadow: 2px 2px 3px #999;  
+  width:40px;
+  background-color:#0C9;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #999;  
+}
+
+/* New styles for Contact page */
+.contact-container {
+    width: 60%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.contact-container h1 {
+    color: darkturquoise;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.contact-info h3 {
+    color: #555;
+    margin-top: 1rem;
+}
+.contact-info p {
+    margin: 0.3rem 0;
+    line-height: 1.5;
 }
